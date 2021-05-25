@@ -72,7 +72,7 @@ button:focus {
 }
 
 .js .loading::after {
-	background: url(../img/electric-guitar.svg) no-repeat 50% 50%;
+	background: url(../img/h.png) no-repeat 50% 50%;
 	background-size: 5em;
 	pointer-events: none;
 	opacity: 0.1;
@@ -181,7 +181,61 @@ main {
 
 .product__bg {
 	height: 20em;
-	background: var(--details-bg-down);
+	background: #f77d7485;
+	position: relative;
+}
+
+.product2__bg {
+	height: 20em;
+	background: #1dadbd5a;
+	position: relative;
+}
+
+.product3__bg {
+	height: 20em;
+	background: #42c9087d;
+	position: relative;
+}
+
+.product4__bg {
+	height: 20em;
+	background: #f5e4267d;
+	position: relative;
+}
+
+.product5__bg {
+	height: 20em;
+	background: #f5b0267d;
+	position: relative;
+}
+
+.product6__bg {
+	height: 20em;
+	background: #26f5a27d;
+	position: relative;
+}
+
+.product7__bg {
+	height: 20em;
+	background: #c826f57d;
+	position: relative;
+}
+
+.product8__bg {
+	height: 20em;
+	background: #f5e4267d;
+	position: relative;
+}
+
+.product9__bg {
+	height: 20em;
+	background: #ff97977d;
+	position: relative;
+}
+
+.product10__bg {
+	height: 20em;
+	background: #3a30ff37;
 	position: relative;
 }
 
