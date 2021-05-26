@@ -10,9 +10,9 @@ html {
 }
 
 body {
-	--color-text: #000;
-	--color-bg: #fff;
-	--color-link: #d35066;
+	--color-text: rgb(255, 0, 153);
+	--color-bg: rgb(236, 255, 247);
+	--color-link: #3fafbc;
 	--color-link-hover: #000;
 	--color-info: #333;
 	--color-menu: #031de6;
@@ -26,7 +26,7 @@ body {
 	--color-details-subtitle: #000;
 	--color-descr: #000;
 	--color-price: var(--color-link);
-	--color-bg-addtocart: #000;
+	--color-bg-addtocart: rgb(232, 114, 194);
 	--color-addtocart: #fff;
 	--color-close: #000;
 	--color-bg-magnifier: #000;
@@ -68,7 +68,7 @@ button:focus {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #333;
+	background: rgb(62, 210, 227);
 }
 
 .js .loading::after {
@@ -124,7 +124,7 @@ main {
 }
 
 .codrops-header__title {
-	font-size: 2em;
+	font-size: 5em;
 	font-weight: bold;
 	margin: 0;
 	padding: 0.75em 0;
@@ -181,7 +181,7 @@ main {
 
 .product__bg {
 	height: 20em;
-	background: #f77d7485;
+	background: #f1f77485;
 	position: relative;
 }
 
