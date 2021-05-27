@@ -43,7 +43,20 @@
 					</div>
 					<h1 class="codrops-header__title">¡AMIGUITOS ESPECIALES!</h1>
 					<span class="info"></span>
-				
+			
+					<div class="overlay" id="overlay">
+						<div class="popup" id="popup">
+							<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+							<h3>SUSCRIBETE</h3>
+							<h4>y recibe un cupon de descuento.</h4>
+							<form action="">
+								<div class="contenedor-inputs">
+									<input type="text" placeholder="Nombre">
+									<input type="email" placeholder="Correo">
+								</div>
+								<input type="submit" class="btn-submit" value="Suscribirse">
+							</form>
+						</div>
 				</a>
 			</div>
 			<button class="dummy-menu"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
@@ -150,18 +163,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="window-notice" id="window-notice">
-					<div class="content">
-						<div class="content-text">Este sitio utiliza cookies para obtener la mejor experiencia en nuestra web. 
-						<a href="#">Leer más.</a></div>
-						<div class="content-buttons"><a href="#" id="close-button">Aceptar</a></div>
-					</div>
-				</div>
+	
 			</div>
 
 		</main>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/anime.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="popup.js"></script>
 	</body>
 </html>
