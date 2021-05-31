@@ -12,6 +12,7 @@ html {
 body {
 	--color-text: #ff0099;
 	--color-bg: rgb(236, 255, 247);
+
 	--color-link: #3fafbc;
 	--color-link-hover: #000;
 	--color-info: #333;
@@ -37,7 +38,8 @@ body {
 	color: #57585c;
 	color: var(--color-text);
 	background-color: #fff;
-	background-color: var(--color-bg);
+	background-color: var(--color-bg);	
+	background-image: url(https://i.pinimg.com/originals/51/39/8e/51398e64bdb213c5f8df1bb1a846264c.jpg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -198,7 +200,7 @@ main {
 
 .product__bg {
 	height: 20em;
-	background: #f1f77485;
+	background: #f1f774;
 	position: relative;
 }
 
