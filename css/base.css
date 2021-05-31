@@ -11,7 +11,7 @@ html {
 
 body {
 	--color-text: #ff0099;
-	--color-bg: rgb(139, 160, 151);
+	--color-bg: rgb(236, 255, 247);
 	--color-link: #3fafbc;
 	--color-link-hover: #000;
 	--color-info: #333;
@@ -50,7 +50,7 @@ body {
 	font-weight: 900;
 	position: fixed;
 	font-family: arial;
-	color: #8ba097;
+	color:rgb(236, 255, 247);
 	top: 0;
   }
 
